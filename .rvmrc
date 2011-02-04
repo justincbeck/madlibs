@@ -1,6 +1,6 @@
-if [[ -d "$rvm_path/environments" && -s "$rvm_path/environments/ruby-1.9.2-p0@madlibs" ]] ; then
-  \. "$rvm_path/environments/ruby-1.9.2-p0@madlibs"
+if [[ -d "$rvm_path/environments" && -s "$rvm_path/environments/ruby-1.9.2-p136@madlibs" ]] ; then
+  \. "$rvm_path/environments/ruby-1.9.2-p136@madlibs"
 else
-  rvm --create use  "ruby-1.9.2-p0@madlibs"
+  rvm --create use  "ruby-1.9.2-p136@madlibs"
 fi
 
